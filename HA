@@ -1,0 +1,530 @@
+    cards:
+      - type: custom:swipe-card
+        cards:
+          - type: custom:stack-in-card
+            cards:
+              - type: custom:button-card
+                entity: person.olli
+                show_entity_picture: true
+                show_name: true
+                entity_picture: /local/annandolli/olli6.gif
+                state:
+                  - value: home
+                    name: Thuis
+                    entity_picture: /local/annandolli/olli6.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      entity_picture:
+                        - margin-bottom: 60px
+                        - width: 70%
+                        - position: relative
+                      name:
+                        - color: '#7DDA9F'
+                        - margin-bottom: '-140px'
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: not_home
+                    name: Onderweg
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: action
+                    name: Action
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: cactus
+                    name: Cactus
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: cantine roland
+                    name: Cantine Roland
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: falstaff
+                    name: Falstaff
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: gently
+                    name: Gently Nails
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: hema
+                    name: Hema
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: kruidvat
+                    name: Kruidvat
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: krantenwinkel
+                    name: Krantenwinkel
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: station lokeren
+                    name: Station Lokeren
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                  - value: frituur de markt
+                    name: Frituur De Markt
+                    entity_picture: /local/annandolli/olli5.gif
+                    styles:
+                      card:
+                        - height: 160px
+                      name:
+                        - color: '#FFA07A'
+                        - margin-bottom: '-140px'
+                      entity_picture:
+                        - margin-bottom: 20px
+                        - width: 70%
+                        - position: relative
+                      styles:
+                        name:
+                          - font-size: 8px
+                        label:
+                          - font-size: 6px
+                tap_action:
+                  action: more-info
+                double_tap_action:
+                  action: none
+                hold_action:
+                  action: none
+                secondary_info: state
+                layout: horizontal
+                primary_info: none
+                fill_container: true
+              - type: custom:mushroom-chips-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --chip-font-size: 0.3em;
+                      --chip-icon-size: 0.5em;
+                      --chip-border-width: 0;
+                      --chip-box-shadow: none;
+                      --chip-background: none;
+                      --chip-border: none;
+                      --chip-spacing: none;
+                      --chip-font-weight: bold;
+                    }
+                chips:
+                  - type: template
+                    entity: sensor.samsung_olli_battery_level
+                    icon: '{{states(''sensor.samsung_olli_battery_icon'')}}'
+                    icon_color: '{{states(''sensor.samsung_olli_battery_color'')}}'
+                    content: '{{states(''sensor.samsung_olli_battery_level'')}}%'
+                    tap_action:
+                      action: more-info
+                  - type: template
+                    entity: sensor.samsung_olli_battery_level
+                    icon: >-
+                      {% if
+                      is_state('binary_sensor.samsung_olli_is_charging','on')%}mdi:power-plug
+                      {% else %} mdi:power-plug-off {% endif
+                      %}                  
+                    icon_color: >-
+                      {% if
+                      is_state('binary_sensor.samsung_olli_is_charging','on')%}blue
+
+                      {% else %} grey
+
+                      {% endif %}
+                    content: ''
+                    tap_action:
+                      action: none
+                  - type: template
+                    entity: sensor.samsung_olli_network_type
+                    icon: >-
+                      {% if
+                      is_state('sensor.samsung_olli_network_type','wifi')%}
+                       mdi:wifi 
+                      {% elif
+                      is_state('sensor.samsung_olli_network_type','cellular')%}
+                       mdi:signal-4g
+                      {% else %} mdi:network-strength-off
+
+                      {% endif %}  
+                    icon_color: >-
+                      {% if
+                      is_state('sensor.samsung_olli_network_type','wifi')%}
+                       green
+                      {% elif
+                      is_state('sensor.samsung_olli_network_type','cellular')%}
+                       red
+                      {% else %} grey
+
+                      {% endif %}   
+                    content: ''
+                    hold_action:
+                      action: none
+                    double_tap_action:
+                      action: none
+                    tap_action:
+                      action: none
+                alignment: center
+              - type: custom:mushroom-chips-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --chip-font-size: 0.28em;
+                      --chip-icon-size: 0.4em;
+                      --chip-border-width: 0;
+                      --chip-box-shadow: none;
+                      --chip-background: none;
+                      --chip-border: none;
+                      --chip-font-weight: normal;
+                    }
+                alignment: justify
+                chips:
+                  - type: entity
+                    entity: person.olli
+                    content_info: last-updated
+                    icon: mdi:clock
+                    icon_color: grey
+                    tap_action:
+                      action: more-info
+                  - type: entity
+                    entity: sensor.samsung_olli
+                    content_info: state
+                    icon: mdi:map-marker-right-outline
+                    icon_color: grey
+                    tap_action:
+                      action: more-info
+          - type: custom:stack-in-card
+            mode: vertical
+            keep:
+              margin: true
+              outer-padding: false
+            cards:
+              - type: custom:mushroom-template-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --font-size: 0.32em;
+                      --icon-size: 0.52em;
+                      --border-width: 0;
+                      --box-shadow: none;
+                      --background: none;
+                      --border: none;
+                      --spacing: 0.5em;
+                      --font-weight: normal;
+                    }
+                primary: ''
+                secondary: 'WiFi: {{states(''sensor.samsung_olli_wifi_connection'')}}'
+                icon: ''
+                entity: sensor.samsung_olli_wifi_connection
+                layout: vertical
+                double_tap_action:
+                  action: none
+                hold_action:
+                  action: none
+                tap_action:
+                  action: more-info
+              - type: custom:mushroom-chips-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --chip-font-size: 0.32em;
+                      --chip-icon-size: 0.52em;
+                      --chip-border-width: 0;
+                      --chip-box-shadow: none;
+                      --chip-background: none;
+                      --chip-border: none;
+                      --chip-spacing: none;
+                      --chip-font-weight: normal;
+                    }
+                chips:
+                  - type: entity
+                    entity: sensor.samsung_olli_detected_activity
+                    icon_color: teal
+                    double_tap_action:
+                      action: none
+                    hold_action:
+                      action: none
+                    tap_action:
+                      action: more-info
+                  - type: entity
+                    entity: automation.a_on_state
+                    icon_color: red
+                    icon: mdi:cellphone-wireless
+                    use_entity_picture: false
+                    content_info: none
+                    tap_action:
+                      action: call-service
+                      service: script.samsung_olli_find_phone
+                      data: {}
+                      target: {}
+                    hold_action:
+                      action: none
+                    double_tap_action:
+                      action: none
+                alignment: center
+              - type: custom:mushroom-entity-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --font-size: 0.2em;
+                      --icon-size: 0.5em;
+                      --border-width: 0;
+                      --box-shadow: none;
+                      --background: none;
+                      --border: none;
+                      --spacing: none;
+                      --font-weight: normal;
+                    }
+                entity: sensor.samsung_olli_geo_1
+                icon_type: none
+                primary_info: ''
+                name: 'Possible Location:'
+                layout: vertical
+                fill_container: true
+                double_tap_action:
+                  action: none
+                hold_action:
+                  action: none
+                tap_action:
+                  action: more-info
+              - type: custom:mushroom-entity-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --font-size: 0.2em;
+                      --icon-size: 0.5em;
+                      --border-width: 0;
+                      --box-shadow: none;
+                      --background: none;
+                      --border: none;
+                      --spacing: none;
+                      --font-weight: normal;
+                    }
+                entity: sensor.samsung_olli_geo_2
+                icon_type: none
+                primary_info: ''
+                name: 'Possible Location:'
+                layout: vertical
+                fill_container: true
+                double_tap_action:
+                  action: none
+                hold_action:
+                  action: none
+                tap_action:
+                  action: more-info
+          - type: custom:stack-in-card
+            mode: vertical
+            keep:
+              margin: true
+              outer-padding: true
+            cards:
+              - type: custom:mushroom-template-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --font-size: 0.3em;
+                      --icon-size: 0.5em;
+                      --border-width: 0;
+                      --box-shadow: none;
+                      --background: none;
+                      --border: none;
+                      --spacing: 0.5em;
+                      --font-weight: normal;
+                    }
+                primary: ''
+                secondary: 'other info:'
+                icon: ''
+                entity: sensor.samsung_olli_wifi_connection
+                layout: vertical
+                double_tap_action:
+                  action: none
+                hold_action:
+                  action: none
+                tap_action:
+                  action: more-info
+              - type: custom:mushroom-chips-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --chip-font-size: 0.32em;
+                      --chip-icon-size: 0.52em;
+                      --chip-border-width: 0;
+                      --chip-box-shadow: none;
+                      --chip-background: none;
+                      --chip-border: none;
+                      --chip-spacing: none;
+                      --chip-font-weight: normal;
+                    }
+                chips:
+                  - type: entity
+                    entity: sensor.samsung_olli_public_ip_address
+                    icon_color: teal
+                    double_tap_action:
+                      action: none
+                    hold_action:
+                      action: none
+                    tap_action:
+                      action: more-info
+                alignment: center
+              - type: custom:mushroom-chips-card
+                card_mod:
+                  style: |
+                    ha-card {
+                      --chip-font-size: 0.32em;
+                      --chip-icon-size: 0.52em;
+                      --chip-border-width: 0;
+                      --chip-box-shadow: none;
+                      --chip-background: none;
+                      --chip-border: none;
+                      --chip-spacing: none;
+                      --chip-font-weight: normal;
+                    }
+                chips:
+                  - type: entity
+                    entity: sensor.samsung_olli_last_reboot
+                    icon_color: teal
+                    double_tap_action:
+                      action: none
+                    hold_action:
+                      action: none
+                    tap_action:
+                      action: more-info
+                alignment: center
